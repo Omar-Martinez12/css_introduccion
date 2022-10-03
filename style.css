@@ -1,0 +1,308 @@
+/*# Desafío: CSS
+
+## Nombre de Desafío: css_introducción
+
+1 Color en todos los elementos <p> en rojo. */
+
+<style>
+p{
+  color: red;
+}
+</style>
+
+/*2 Establecer el color del elemento con id=“para1”, en rojo. */
+
+<style>
+#para1 {
+  color: blue;
+}
+</style>
+
+<body>{
+  <h1>This is a heading</h1>
+  <p id="para1">This is a paragraph</p>
+}
+
+/*3 Establecer el color de todos los elementos con la clase colortext en rojo. */
+<style>
+ .colortext {
+  color: red;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p class="colortext">This is a paragraph</p>
+  <p class="colortext">This is a paragraph</p>
+</body>
+
+/*4 Cambiar el color de todos los elementos <p> y <h1> a “rojo”. */
+
+<style>
+p,h1{
+    color: red;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <h2>This is a smaller heading</h2>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+/*5 Agregar una hoja de estulo externa con la URL "mystyle" */
+
+<head>
+<link rel="stylesheet" href="mystyle.css"/>
+</head>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+/*6 Insertar las partes que faltan para que el código CSS sea correcto. */
+
+<style>
+p{
+  color: red;
+}
+</style>
+
+/*7 Utiliza la propiedad abreviada border para establecer un borde “4px”, “punteado”, “rojo” para los elementos <p>. */
+
+<style>
+p {
+    border: dotted 4px red;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+/*8 Utiliza la propiedad de borde correcta para establecer el color del borde en “rojo”. */
+
+<style>
+p {
+  border-style: dotted;
+  border-width: 4px;
+  border-color: red;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+/*9 Agregar un margen izquierdo de 20 píxeles al elemento <h1>. */
+
+<style>
+h1 {
+  margin-left: 20px;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+/*10 Utilice la propiedad margin abreviada para agregar márgenes superior e inferior de 20 píxeles y márgenes izquierdo y derecho de 40 píxeles en el elemento <h1> */
+
+<style>
+h1 {
+  margin: 20px 40px;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+/*11 Utilizar la propiedad de margin para alinear al centro el elemento <h1>. */
+
+<style>
+h1 {
+  margin: center;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+/*12 Establecer el relleno superior del elemento <h1> en 30 píxeles. */
+
+<style>
+h1 {
+  padding-top: 30px;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+/*13 Utiliza la propiedad de relleno abreviado para agregar 10 píxeles de relleno izquierdo y derecho, y 40 píxeles de relleno superior e inferior, en el elemento <h1>. */
+
+<style>
+h1 {
+  padding: 40px 10px;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+/*14 Establecer la altura del elemento <h1> en “100px”. */
+
+<style>
+h1 {
+  height: 100px;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+/*15 Establecer el ancho del elemento <h1> en “50 %”. */
+
+<style>
+h1 {
+  width: 50%;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+/*16 Establecer el ancho del elemento <div> en “200px”. */
+
+<style>
+  div{
+  width: 200px;
+}
+</style>
+
+<body>
+
+<div>
+Lorem ipsum dolor sit amet,
+consectetur adipiscing elit,
+sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua.
+</div>
+
+</body>
+
+/*17 Agregar un espacio de 25 píxeles afuera, a la izquierda del elemento <div>. */
+
+<style>
+div {
+  width: 200px;
+  border: 2px solid red;
+  padding: 25px;
+  margin-left: 25px;
+}
+</style>
+
+<body>
+
+<div>
+Lorem ipsum dolor sit amet,
+consectetur adipiscing elit,
+sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua.
+</div>
+
+</body>
+
+/*18 Fuerce una barra de desplazamiento al elemento <div> con class=“intro”. */
+
+<style>
+.intro {
+  width: 200px;
+  height: 70px;
+  overflow: scroll;
+}
+</style>
+
+<body>
+
+<div class="intro">
+Lorem ipsum dolor sit amet,
+consectetur adipiscing elit.
+Phasellus imperdiet, nulla et dictum interdum,
+nisi lorem egestas odio,
+vitae scelerisque enim ligula venenatis dolor.
+</div>
+
+</body>
+
+/*19 Especificar que el texto desbordado en el elemento <div> no debe ser visible, ni siquiera con una barra de desplazamiento. */
+
+<style>
+.intro {
+  width: 200px;
+  height: 70px;
+  overflow: hidden;
+}
+</style>
+
+<body>
+
+<div class="intro">
+Lorem ipsum dolor sit amet,
+consectetur adipiscing elit.
+Phasellus imperdiet, nulla et dictum interdum,
+nisi lorem egestas odio,
+vitae scelerisque enim ligula venenatis dolor.
+</div>
+
+</body>
+
+/*20 Agregar una barra de desplazamiento horizontal al elemento <div>. */
+
+<style>
+.intro {
+  width: 200px;
+  height: 70px;
+  overflow-x: scroll;
+}
+</style>
+
+<body>
+
+<div class="intro">
+Lorem ipsum dolor sit amet,
+consectetur adipiscing elit.
+Phasellus imperdiet, nulla et dictum interdum,
+nisi lorem egestas odio,
+vitae scelerisque enim ligula venenatis dolor.
+</div>
+
+</body>
